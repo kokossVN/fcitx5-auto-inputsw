@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 EXTENSION_PATH=$HOME/.local/share/fcitx5/lua/imeapi/extensions/
-CONFIG_PATH=$XDG_CONFIG_HOME/fcitx5-auto-inputsw
+CONFIG_PATH=$HOME/.config/fcitx5-auto-inputsw
 FILES=(auto-method.lua focus_event.sh)
 #
 echo "mkdir -p ~/.local/share/fcitx5/lua/imeapi/extensions"
