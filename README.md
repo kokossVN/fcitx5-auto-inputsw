@@ -36,5 +36,6 @@ After installed, extension will auto activate
 
 #### Configure
 Check Activate Window class in `log_streaming.sh`
-Put your class into 1 of 2 array `~/.config/fcitx5-auto-inputsw/config`
+
+Then Put your class into 1 of 2 array `~/.config/fcitx5-auto-inputsw/config`
 
