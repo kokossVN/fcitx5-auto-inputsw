@@ -4,7 +4,7 @@ ACTIVE_WINDOW=$(xprop -root 32x '\t$0' _NET_ACTIVE_WINDOW | awk '{print $2}')
 WM_CLASS=$(xprop -id $ACTIVE_WINDOW WM_CLASS | awk -F '"' '{print $2}')
 WM_CLASS_TOLOWER=${WM_CLASS,,}
 
-#check list form config file
+#check list from config file
 CONFIG_FILE=$XDG_CONFIG_HOME/fcitx5-auto-inputsw/config
 [ -f $CONFIG_FILE ] && . $CONFIG_FILE
 
