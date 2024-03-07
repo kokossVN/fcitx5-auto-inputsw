@@ -5,7 +5,7 @@ WM_CLASS=$(xprop -id $ACTIVE_WINDOW WM_CLASS | awk -F '"' '{print $2}')
 WM_CLASS_TOLOWER=${WM_CLASS,,}
 
 #check list from config file
-CONFIG_FILE=$XDG_CONFIG_HOME/fcitx5-auto-inputsw/config
+CONFIG_FILE=$HOME/.config/fcitx5-auto-inputsw/config
 [ -f $CONFIG_FILE ] && . $CONFIG_FILE
 
 #to english
